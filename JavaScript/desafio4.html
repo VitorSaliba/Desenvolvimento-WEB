@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript - Desafio 4</title>
+        <script>
+
+            function calcularSomaSubtracao (num1, num2, operacao){
+                if(operacao == 'soma'){
+                    var resultado = (num1 + num2)
+                } else if(operacao =='subtração'){
+                    var resultado = (num1 - num2)
+                } else{
+                    document.write('Digite uma operação válida!')
+                }
+
+                return resultado
+            }
+
+            var num1 = prompt('Digite o primeiro número: ')
+            num1 = parseFloat(num1)
+            var operacao = prompt('Digite a operação (soma / subtração): ')
+            var num2 = prompt('Digite o segundo número: ')
+            num2 = parseFloat(num2)
+
+            var resultado = calcularSomaSubtracao(num1, num2, operacao)
+
+            document.write('O resultado é: ' + resultado)
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
