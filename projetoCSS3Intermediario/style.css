@@ -1,0 +1,59 @@
+/*
+	Modelo de caixa
+
+
+	.conteudo{
+		border: 1px solid red;
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		margin: 20px;
+		width: 150px;
+	}
+
+*/
+
+/* Navegação Vertical */
+
+/*ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	padding: 5px 20px;
+	background: url(images/seta.png) no-repeat left center;
+}*/
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(images/menu.png) no-repeat left bottom;
+}
+
+ul a:hover{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home #navegacao .home a, 
+#sobre #navegacao .sobre a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}

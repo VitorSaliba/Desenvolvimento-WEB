@@ -1,0 +1,67 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table{
+	width: 600px;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 7px;
+}
+
+th{
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+
+tr.alterna{
+	background-color: #efefef;
+}
+
+tr:hover{
+	background-color: #c3e6e5;
+}
+
+.numero{
+	text-align: right;
+}
+
+
+fieldset{
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+	margin: 1em 0;
+}
+
+legend{
+	font-weight: bold;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input[type="text"]{
+	width: 20em;
+}
+
+textarea{
+	width: 20em;
+	height: 10em;
+}
+
+input.radio, input.checkbox, input.submit{
+	width: auto;
+}
+
+.radio{
+	margin-right: 1em;
+}
